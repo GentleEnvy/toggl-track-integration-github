@@ -1,2 +1,2 @@
 # toggl-track-integration-github
-Custom Toggl Track intergration for github auto adds tags, project (beta) and repository
+Custom Toggl Track intergration with github for automatic addition tags, a project, and a link to the issue
