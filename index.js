@@ -23,8 +23,8 @@ togglbutton.render('#partial-discussion-sidebar', { observe: true }, function (
     existingTag.parentNode.removeChild(existingTag);
   }
 
-  const org = $("#repository-container-header > div.d-flex.mb-3.px-3.px-md-4.px-lg-5 > div > h2 > span.author.flex-self-stretch > a").textContent
-  const rep = $("#repository-container-header > div.d-flex.mb-3.px-3.px-md-4.px-lg-5 > div > h2 > strong > a").textContent
+  const org = $("#repository-container-header > div.d-flex.mb-3.px-3.px-md-4.px-lg-5 > div > div > span.author.flex-self-stretch > a").textContent
+  const rep = $("#repository-container-header > div.d-flex.mb-3.px-3.px-md-4.px-lg-5 > div > div > strong > a").textContent
 
   let description = titleElem.textContent;
   if (numElem !== null) {
